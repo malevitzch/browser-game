@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "backend/server"
 
 func main() {
-	fmt.Println("Server says hello")
+	server.Run()
 }
