@@ -12,4 +12,6 @@ RUN echo "Dependencies installed successfully"
 #RUN go build -v -o /usr/local/bin/app ./..
 
 EXPOSE 8000
+EXPOSE 8001
+
 CMD ["go", "run", "./cmd"]
